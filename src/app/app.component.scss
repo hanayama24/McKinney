@@ -1,0 +1,58 @@
+.app-header__wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 120rem;
+    margin: 3rem auto;
+}
+
+.app-header__menu-items {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+
+.app-header__menu-item {
+    font-size: 2rem;
+
+    /deep/ a {
+        color: #fff;
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+    .active {
+        color: #F9BD15;
+    }
+}
+
+.app-header__logo {
+    display: inline-flex;
+    width: 30rem;
+    height: 8rem;
+    background: url("../assets/images/logo.svg") no-repeat center;
+    background-size: cover;
+}
+
+.app-container-wallpaper {
+
+}
+
+.app-header__menu {
+    padding-top: 1.5rem;
+}
+
+.app-body__wrapper {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.app-header {
+    position: relative;
+    z-index: 10;
+}
+
+clip-path {
+    position: absolute;
+    left: 0;
+}

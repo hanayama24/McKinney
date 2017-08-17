@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'assets/scss/_fonts';
+@import 'assets/scss/normalize.css';
+
+html, body {
+    font-family: FuturaBook;
+    font-size: 10px;
+    background-color:#252A35;
+    margin: 0;
+    padding: 0;
+}

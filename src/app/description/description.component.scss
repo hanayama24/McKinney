@@ -1,0 +1,49 @@
+.app-description {
+    position: relative;
+    z-index: 200;
+    width: 109.5rem;
+    box-sizing: border-box;
+    margin: 15rem auto;
+}
+
+.app-description__title {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #F9BD15;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 20rem;
+}
+
+.app-description__subtitle {
+    text-transform: uppercase;
+    font-size: 2.7rem;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 20rem;
+}
+
+.app-description__text {
+    font-size: 1.4rem;
+    color: #fff;
+    width: 20rem;
+}
+
+.app-description__button {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #F9BD15;
+    border: .1rem solid #F9BD15;
+    padding: 1rem 2rem;
+    margin-top: 4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #fff;
+        border: .1rem solid #fff;
+        color: grey;
+    }
+}
